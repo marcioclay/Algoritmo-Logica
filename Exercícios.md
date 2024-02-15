@@ -1,15 +1,13 @@
 # Lista de exercícios resolvidos
 
-
+<!--
 ## Anotações importantes
 
 - Anotações da aula 20, sobre funções (Parte 1) em Python: [notas.md](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_20/notas.md)
 
 - Anotações da aula 21, sobre funções (Parte 2) em Python: [notas.md](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_3/aula_21/notas.md)
 
-## Lista de exercícios resolvidos
-
-### Mundo 1
+### Mundo 1 -->
 
 #### Conhecendo a linguagem
 
@@ -20,7 +18,7 @@
 
 - Exercício Python #03 - [Somando dois números](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_1/Aula_1_a_5_Conhecendo_a_Linguagem/desafio_3.py)
 - Exercício Python #04 - [Dissecando uma variável](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_1/Aula_6_Primeiros_Passos/desafio_4.py)
-
+<!--
 #### Cálculos e operações
 
 - Exercício Python #05 - [Antecessor e sucessor](https://github.com/guiemi-learning-center/curso-python-gustavo-guanabara/blob/master/mundo_1/Aula_7_Calculos_e_Operacoes/desafio_5.py)
@@ -182,3 +180,4 @@
 - Exercício Python #115a - Criando um menu em Python
 - Exercício Python #115b - Criando um menu em Python
 - Exercício Python #115c - Finalizando o projeto
+-->
