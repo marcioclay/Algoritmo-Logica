@@ -1,4 +1,4 @@
-# Disciplina Lógica e Algoritmo - Python
+# Disciplina Algoritmo e Lógica - Python
 
 Prof. Márcio Castelo Branco
 
