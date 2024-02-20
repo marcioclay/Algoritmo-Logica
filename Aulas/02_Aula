@@ -1,1 +1,13 @@
 # Aula 02 - Algoritmo
+
+• Neste curso, aprenderemos como programar utilizando a versão 3 da
+linguagem Python.
+• Você pode verificar a versão do Python instalada no seu computador
+abrindo o terminal e digitando o comando:
+1 python3 --version
+• A resposta esperada para o comando deve ser:
+1 Python 3.x.x
+
+```bash
+sudo apt-get install python-virtualenv
+```
