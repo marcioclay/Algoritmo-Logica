@@ -8,8 +8,3 @@ abrindo o terminal e digitando o comando:
 • A resposta esperada para o comando deve ser:
 1 Python 3.x.x
 
-```
-bash
-sudo apt-get install python-virtualenv
-
-...
