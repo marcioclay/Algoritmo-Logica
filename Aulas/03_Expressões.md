@@ -6,7 +6,7 @@
 
   Em Python, as expressões aritméticas permitem realizar cálculos matemáticos com números e variáveis. São compostas por operandos e operadores, que podem ser combinados para gerar um resultado.
 
-### Operadores Aritméticos:
+*********************************************   ## OPERADORES ARITMÉTICOS  **************************************************
 
 - Adição (+): Soma dois valores.
 - Subtração (-): Subtrai o segundo valor do primeiro.
@@ -80,7 +80,7 @@ resultado = (2 + 3) * 4
 print(resultado) # Saída: 20 (Primeiro a soma, depois a multiplicação)
 ```
 
-### OPERADORES RELACIONAIS
+********************************************* ## OPERADORES RELACIONAIS ******************************************************
 
 Em Python, as expressões relacionais permitem comparar valores e determinar se são verdadeiros ou falsos. Elas são utilizadas em instruções condicionais para controlar o fluxo de execução de um programa.
 
