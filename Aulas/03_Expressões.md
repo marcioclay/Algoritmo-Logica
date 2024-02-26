@@ -79,3 +79,90 @@ print(resultado) # Saída: 14 (Primeiro a multiplicação, depois a soma)
 resultado = (2 + 3) * 4
 print(resultado) # Saída: 20 (Primeiro a soma, depois a multiplicação)
 ```
+
+### OPERADORES RELACIONAIS
+
+Em Python, as expressões relacionais permitem comparar valores e determinar se são verdadeiros ou falsos. Elas são utilizadas em instruções condicionais para controlar o fluxo de execução de um programa.
+
+
+- Igual a (==): Verifica se dois valores são iguais.
+- Diferente de (!=): Verifica se dois valores são diferentes.
+- Maior que (>): Verifica se o primeiro valor é maior que o segundo.
+- Menor que (<): Verifica se o primeiro valor é menor que o segundo.
+- Maior ou igual a (>=): Verifica se o primeiro valor é maior ou igual ao segundo.
+- Menor ou igual a (<=): Verifica se o primeiro valor é menor ou igual ao segundo.
+  
+Exemplos:
+
+1. Igualdade:
+
+```
+valor1 = 5
+valor2 = 5
+
+resultado = valor1 == valor2
+print(resultado) # Saída: True
+```
+
+2. Diferença:
+
+```
+valor1 = 5
+valor2 = 6
+
+resultado = valor1 != valor2
+print(resultado) # Saída: True
+```
+
+3. Maior que:
+
+```
+valor1 = 6
+valor2 = 5
+
+resultado = valor1 > valor2
+print(resultado) # Saída: True
+```
+
+4. Menor que:
+
+```
+valor1 = 5
+valor2 = 6
+
+resultado = valor1 < valor2
+print(resultado) # Saída: True
+```
+
+5. Maior ou igual a:
+
+```
+valor1 = 5
+valor2 = 5
+
+resultado = valor1 >= valor2
+print(resultado) # Saída: True
+```
+
+6. Menor ou igual a:
+
+```
+valor1 = 5
+valor2 = 6
+
+resultado = valor1 <= valor2
+print(resultado) # Saída: True
+```
+
+Utilização em instruções condicionais:
+
+As expressões relacionais podem ser utilizadas em instruções if para controlar o fluxo de execução de um programa.
+
+```
+valor = int(input("Digite um número: "))
+
+if valor > 0:
+    print("O número é positivo")
+else:
+    print("O número é negativo")
+```
