@@ -166,3 +166,78 @@ if valor > 0:
 else:
     print("O número é negativo")
 ```
+
+********************************************* ## OPERADORES LÓGICOS ****************************************************** 
+
+Em Python, as expressões lógicas permitem combinar valores booleanos (True ou False) para formar novas expressões complexas. São utilizadas em instruções condicionais para controlar o fluxo de execução de um programa.
+
+Operadores Lógicos:
+
+- E (and): Retorna True se ambos os operandos forem True.
+- Ou (or): Retorna True se pelo menos um dos operandos for True.
+- Não (not): Inverte o valor do operando.
+- 
+Exemplos:
+
+1. Operador E:
+
+```
+valor1 = True
+valor2 = True
+
+resultado = valor1 and valor2
+print(resultado) # Saída: True
+```
+
+2. Operador Ou:
+
+```
+valor1 = False
+valor2 = True
+
+resultado = valor1 or valor2
+print(resultado) # Saída: True
+```
+
+3. Operador Não:
+
+```
+valor = True
+
+resultado = not valor
+print(resultado) # Saída: False
+```
+
+Precedência de Operadores:
+
+A ordem de precedência define a ordem em que as operações são realizadas em uma expressão.
+
+- Não
+- E
+- Ou
+  
+Exemplos:
+
+```
+resultado = True and False or not True
+print(resultado) # Saída: False (Primeiro o "not", depois o "and", depois o "or")
+
+resultado = (True and False) or not True
+print(resultado) # Saída: False (Primeiro o "and", depois o "not", depois o "or")
+```
+
+Utilização em instruções condicionais:
+
+As expressões lógicas podem ser utilizadas em instruções if para controlar o fluxo de execução de um programa.
+
+```
+valor1 = True
+valor2 = False
+
+if valor1 and valor2:
+    print("Ambas as condições são verdadeiras")
+elif valor1 or valor2:
+    print("Pelo menos uma condição é verdadeira")
+else:
+    print("Ambas as condições são falsas")
+```
