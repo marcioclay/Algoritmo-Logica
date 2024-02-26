@@ -176,7 +176,7 @@ Operadores Lógicos:
 - E (and): Retorna True se ambos os operandos forem True.
 - Ou (or): Retorna True se pelo menos um dos operandos for True.
 - Não (not): Inverte o valor do operando.
-- 
+  
 Exemplos:
 
 1. Operador E:
