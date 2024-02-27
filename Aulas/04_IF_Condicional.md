@@ -52,7 +52,7 @@ else:
     print("O número é negativo")
 ```
 
-Dicas:
+### Dicas:
 
 Utilize indentação para organizar o código e facilitar a leitura.
 Utilize comentários para explicar o que cada parte do código faz.
@@ -64,9 +64,10 @@ Exibir diferentes mensagens de acordo com a situação.
 Executar diferentes ações com base em um valor.
 Recursos adicionais:
 
-Tutorial Python: [https://www.devmedia.com.br/python-estrutura-condicional-if-else/38217]
-Tutoriais sobre estruturas condicionais: [https://www.w3schools.com/python/default.asp]
-Observações:
+- Tutorial Python: [https://www.devmedia.com.br/python-estrutura-condicional-if-else/38217]
+- Tutoriais sobre estruturas condicionais: [https://www.w3schools.com/python/default.asp]
+  
+### Observações:
 
 O condicional if é uma ferramenta poderosa, mas deve ser usado com cuidado.
 É importante pensar cuidadosamente nas condições que serão verificadas e nos blocos de código que serão executados.
