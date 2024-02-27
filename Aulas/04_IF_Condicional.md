@@ -64,8 +64,8 @@ Exibir diferentes mensagens de acordo com a situação.
 Executar diferentes ações com base em um valor.
 Recursos adicionais:
 
-Documentação oficial do Python: [URL inválido removido]
-Tutoriais sobre estruturas condicionais: [URL inválido removido]
+Tutorial Python: [https://www.devmedia.com.br/python-estrutura-condicional-if-else/38217]
+Tutoriais sobre estruturas condicionais: [https://www.w3schools.com/python/default.asp]
 Observações:
 
 O condicional if é uma ferramenta poderosa, mas deve ser usado com cuidado.
