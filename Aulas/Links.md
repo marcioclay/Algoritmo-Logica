@@ -36,6 +36,6 @@
 
 ### EXTRAS
 
-[Como Configurar VSCode Para Python em 2024](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=10s)
+[Como ](https://wom/watch?v=BSjdcLzgfIw&t=10s)
 
 
