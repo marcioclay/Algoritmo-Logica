@@ -1,5 +1,9 @@
 # Lista de exercícios resolvidos
 
+
+
+- Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
+
 <!--
 ## Anotações importantes
 
