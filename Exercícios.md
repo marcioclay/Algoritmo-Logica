@@ -17,7 +17,7 @@
 
 - Exercício Python #06 - [Relacional](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorRelacional.py)
 - Exercício Python #07 - [Aritmético](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAritmetico.py)
-- Exercício Python #08 - [fstrings01]()
+- Exercício Python #08 - [Booleano]()
 - Exercício Python #09 - [fstrings02]()
 - Exercício Python #10 - [fstrings03]()
 
