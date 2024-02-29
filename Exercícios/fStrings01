@@ -1,0 +1,27 @@
+# Definindo variáveis
+nome = "João"
+idade = 25
+altura = 1.75
+e_maior_de_idade = True
+
+# Usando f-strings para formatar strings
+# As f-strings permitem interpolar expressões diretamente na string.
+# Isso facilita a formatação de strings complexas e torna o código mais legível.
+
+mensagem_1 = f"Olá, {nome}! Você tem {idade} anos."
+mensagem_2 = f"Sua altura é de {altura:.2f} metros."
+mensagem_3 = f"Você é maior de idade? {e_maior_de_idade}"
+
+# Imprimindo as mensagens formatadas
+print(mensagem_1)
+print(mensagem_2)
+print(mensagem_3)
+
+"""
+Explicação:
+
+As f-strings são delimitadas por chaves f e }.
+Dentro das f-strings, podemos inserir expressões Python que serão avaliadas e o resultado será inserido na string.
+No exemplo, as variáveis nome, idade, altura e e_maior_de_idade são utilizadas para formatar as strings.
+A notação :.2f na variável altura limita a quantidade de casas decimais após o ponto flutuante para 2.
+"""
