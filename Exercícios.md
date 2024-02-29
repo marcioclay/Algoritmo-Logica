@@ -13,6 +13,17 @@
 - Exercício Python #04 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
 - Exercício Python #05 - [fstrings03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings03)
 
+#### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
+
+- Exercício Python #01 - [Relacional()
+- Exercício Python #02 - [UsodoPrint]()
+- Exercício Python #03 - [fstrings01]()
+- Exercício Python #04 - [fstrings02]()
+- Exercício Python #05 - [fstrings03]()
+
+
+
+#### Input
 
 
 
