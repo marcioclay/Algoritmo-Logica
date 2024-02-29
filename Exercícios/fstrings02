@@ -1,0 +1,16 @@
+"""
+Instruções: Crie um script Python que defina as seguintes variáveis:
+
+nome: Seu nome completo.
+idade: Sua idade.
+cidade: A cidade onde você mora.
+curso: O curso que você está estudando (ou que gostaria de estudar).
+Usando f-strings, formate uma string que inclua todas as variáveis e imprima-a usando o comando print().
+"""
+
+nome = "João Silva"
+idade = 25
+cidade = "São Paulo"
+curso = "Ciência da Computação"
+
+print(f"Olá, {nome}! Você tem {idade} anos e mora em {cidade}. Você está estudando {curso}.")
