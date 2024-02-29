@@ -8,7 +8,7 @@
 #### Declaração de Variável e Saída de Dados
 
 - Exercício Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
-- Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
+- Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
 
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
