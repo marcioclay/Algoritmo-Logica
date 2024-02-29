@@ -7,7 +7,7 @@
 
 #### Declaração de Variável
 
-- Exercício Python #01 - [Declaração Variavel]()
+- Exercício Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
 
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
