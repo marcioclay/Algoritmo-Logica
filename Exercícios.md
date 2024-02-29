@@ -5,9 +5,10 @@
 - Configurar Ambiente - [Configurar VsCode](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=264s)
 - Perspectivas para Python em 2024 - [Python 2024](https://www.youtube.com/watch?v=4kd1iGRuxXM)
 
-#### Declaração de Variável
+#### Declaração de Variável e Saída de Dados
 
 - Exercício Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
+- Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
 
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
