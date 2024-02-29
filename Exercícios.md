@@ -5,10 +5,15 @@
 - Configurar Ambiente - [Configurar VsCode](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=264s)
 - Perspectivas para Python em 2024 - [Python 2024](https://www.youtube.com/watch?v=4kd1iGRuxXM)
 
-#### Declaração de Variável e Saída de Dados
+#### Declaração de Variável, Print, fstrings
 
 - Exercício Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
 - Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
+- Exercício Python #03 - [fstrings](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
+- Exercício Python #04 - [fstrings]()
+  - - Exercício Python #03 - [fstrings](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
+
+
 
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
