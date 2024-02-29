@@ -18,7 +18,7 @@
 - Exercício Python #06 - [Relacional](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorRelacional.py)
 - Exercício Python #07 - [Aritmético](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAritmetico.py)
 - Exercício Python #08 - [Booleano](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorBooleano.py)
-- Exercício Python #09 - [Atribuição]()
+- Exercício Python #09 - [Atribuição](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAtribuicao.py)
 - Exercício Python #10 - []()
 
 
