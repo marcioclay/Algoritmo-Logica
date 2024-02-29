@@ -24,11 +24,9 @@
 
 - Exercício Python #10 - [input](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/input.py)
  
+#### Condicional If
 
-
-
-#### Input
-
+- Exercício Python #10 - []()
 
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
