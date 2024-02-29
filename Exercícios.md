@@ -1,9 +1,14 @@
 # Lista de exercícios resolvidos
 
-#### A linguagem, IDE e Estruturas
+#### A linguagem, IDE e Estrutura
 
-- CONFIGURAR AMBIENTE - [Configurar VsCode](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=264s)
-- PERSPECTIVAS PARA PYTHON EM 2024 - [Python 2024](https://www.youtube.com/watch?v=4kd1iGRuxXM)
+- Configurar Ambiente - [Configurar VsCode](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=264s)
+- Perspectivas para Python em 2024 - [Python 2024](https://www.youtube.com/watch?v=4kd1iGRuxXM)
+
+#### Declaração de Variável
+
+- Exercício Python #01 - [Declaração Variavel]()
+
 
 - Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
 
