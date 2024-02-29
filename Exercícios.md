@@ -15,11 +15,11 @@
 
 #### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
 
-- Exercício Python #01 - [Relacional()
-- Exercício Python #02 - [UsodoPrint]()
-- Exercício Python #03 - [fstrings01]()
-- Exercício Python #04 - [fstrings02]()
-- Exercício Python #05 - [fstrings03]()
+- Exercício Python #06 - [Relacional](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorRelacional.py)
+- Exercício Python #07 - [UsodoPrint]()
+- Exercício Python #08 - [fstrings01]()
+- Exercício Python #09 - [fstrings02]()
+- Exercício Python #10 - [fstrings03]()
 
 
 
