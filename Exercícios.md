@@ -11,7 +11,7 @@
 - Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
 - Exercício Python #03 - [fstrings01](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
 - Exercício Python #04 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
-  - - Exercício Python #03 - [fstrings](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
+- Exercício Python #05 - [fstrings03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings03)
 
 
 
