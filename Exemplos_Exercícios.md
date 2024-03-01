@@ -34,6 +34,8 @@
 
 - [str_Metodos](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_metodos.py)
 
+  
+
 <!--
 ## Anotações importantes
 
