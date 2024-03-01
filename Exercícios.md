@@ -30,6 +30,10 @@
 - Exercício Python #12 - [ifElif](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElif.py)
 - Exercício Python #13 - [ifComposto](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifComposto.py)
 - Exercício Python #14 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
+- Exercício Python #14 - [distKm](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/distKm.py)
+
+
+
 
 <!--
 ## Anotações importantes
