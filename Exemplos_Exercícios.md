@@ -33,7 +33,9 @@
 #### Manipulação de String
 
 - [str_Metodos](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_metodos.py)
-
+- [str_01](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_01.py)
+- [str_02]()
+- [str_03]()  
   
 
 <!--
