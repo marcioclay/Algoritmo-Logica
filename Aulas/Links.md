@@ -36,6 +36,6 @@
 
 ### EXTRAS
 
-[Como ](https://wom/watch?v=BSjdcLzgfIw&t=10s)
+[Metodos_Strings](https://www.w3schools.com/python/python_strings_methods.asp)
 
 
