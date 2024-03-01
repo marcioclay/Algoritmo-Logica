@@ -7,11 +7,12 @@
 
 #### Declaração de Variável, Print, fstrings
 
-- Exercício Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
+- Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
 - Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
 - Exercício Python #03 - [fstrings01](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
 - Exercício Python #04 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
 - Exercício Python #05 - [fstrings03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings03)
+- Exercício Python #10 - [input](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/input.py)
 
 #### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
 
