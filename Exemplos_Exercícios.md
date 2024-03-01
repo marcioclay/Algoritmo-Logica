@@ -13,7 +13,7 @@
 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
 - [fstrings03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings03)
 - [input](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/input.py)
-- [format]()
+- [format](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/format.py)
 
 #### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
 
