@@ -30,8 +30,9 @@
 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
 - [distKm](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/distKm.py)
 
+#### Manipulação de String
 
-
+- [str_Metodos](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_metodos.py)
 
 <!--
 ## Anotações importantes
