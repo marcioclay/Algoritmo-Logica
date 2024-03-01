@@ -36,7 +36,7 @@
 - [str_01](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_01.py)
 - [str_02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_02.py)
 - [str_03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_03.py)
-- [str_04]()  
+- [str_04](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_04.py)  
   
 
 <!--
