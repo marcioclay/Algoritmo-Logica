@@ -16,22 +16,18 @@
 
 #### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
 
-- Exercício Python #06 - [Relacional](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorRelacional.py)
-- Exercício Python #07 - [Aritmético](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAritmetico.py)
-- Exercício Python #08 - [Booleano](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorBooleano.py)
-- Exercício Python #09 - [Atribuição](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAtribuicao.py)
+- [Relacional](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorRelacional.py)
+- [Aritmético](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAritmetico.py)
+- [Booleano](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorBooleano.py)
+- [Atribuição](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/operadorAtribuicao.py)
 
-#### Input
-
-- Exercício Python #10 - [input](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/input.py)
- 
 #### Condicional If
 
-- Exercício Python #11 - [ifElse](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElse.py)
-- Exercício Python #12 - [ifElif](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElif.py)
-- Exercício Python #13 - [ifComposto](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifComposto.py)
-- Exercício Python #14 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
-- Exercício Python #14 - [distKm](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/distKm.py)
+- [ifElse](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElse.py)
+- [ifElif](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElif.py)
+- [ifComposto](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifComposto.py)
+- [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
+- [distKm](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/distKm.py)
 
 
 
