@@ -29,9 +29,7 @@
 - Exercício Python #11 - [ifElse](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElse.py)
 - Exercício Python #12 - [ifElif](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifElif.py)
 - Exercício Python #13 - [ifComposto](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifComposto.py)
-
-
-- Exercício Python #01 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
+- Exercício Python #14 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
 
 <!--
 ## Anotações importantes
