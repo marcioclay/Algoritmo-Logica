@@ -7,7 +7,7 @@
 
 #### Declaração de Variável, Print, fstrings
 
-- Python #01 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
+- [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
 - Exercício Python #02 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
 - Exercício Python #03 - [fstrings01](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings01)
 - Exercício Python #04 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
