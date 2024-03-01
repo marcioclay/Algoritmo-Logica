@@ -5,7 +5,7 @@
 - Configurar Ambiente - [Configurar VsCode](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=264s)
 - Perspectivas para Python em 2024 - [Python 2024](https://www.youtube.com/watch?v=4kd1iGRuxXM)
 
-#### Declaração de Variável, Print, fstrings
+#### Declaração de Variável, Print, fstrings, format
 
 - [Declaração Variavel](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/variavel.py)
 - [UsodoPrint](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/print.py)
@@ -13,6 +13,7 @@
 - [fstrings02](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fstrings02)
 - [fstrings03](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/fStrings03)
 - [input](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/input.py)
+- [format]()
 
 #### Operadores Relacionais, Aritméticos, Booleanos e Atribuição
 
