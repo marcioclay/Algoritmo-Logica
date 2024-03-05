@@ -29,6 +29,8 @@
 - [ifComposto](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/ifComposto.py)
 - [ParImpar](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/parImpar.py)
 - [distKm](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/distKm.py)
+- [Suspeito](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/suspeito.py)
+
 
 #### Manipulação de String
 
