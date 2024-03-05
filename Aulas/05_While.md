@@ -20,11 +20,13 @@ while numero <= 5:
 
 ### Explicação:
 
+#### While:
 A variável numero é inicializada com o valor 1.
 O loop while é executado enquanto numero for menor ou igual a 5.
 Dentro do loop, o valor de numero é impresso e incrementado em 1.
 O loop termina quando numero é igual a 6.
-Do While:
+
+#### Do While:
 
 Executa o bloco de código pelo menos uma vez.
 Verifica a condição após executar o bloco de código.
