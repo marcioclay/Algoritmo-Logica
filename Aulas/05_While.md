@@ -49,7 +49,8 @@ O loop do while é executado pelo menos uma vez.
 Dentro do loop, o valor de numero é impresso e incrementado em 1.
 A condição é verificada após a execução do bloco de código.
 O loop termina quando numero é igual a 6.
-Exemplos com While e If, While e For, Do While com If e Do While com For:
+
+###Exemplos com While e If, While e For, Do While com If e Do While com For:
 
 ### While e If:
 
