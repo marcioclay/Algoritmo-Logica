@@ -62,3 +62,14 @@ while numero < len(lista_numeros):
 #### Explicação:
 
 Este código é equivalente ao exemplo de while e for.
+```
+numero = 1
+
+while numero <= 10:
+  for i in range(2, numero):
+    if numero % i == 0:
+      break
+  else:
+    print(f"{numero} é primo.")
+  numero += 1
+```
