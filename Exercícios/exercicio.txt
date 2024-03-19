@@ -1,0 +1,25 @@
+
+1. Par ou ímpar:
+
+O usuário digita um número.
+O programa verifica se o número é par ou ímpar e exibe a mensagem "O número é par" ou "O número é ímpar".
+
+2. Maior, menor ou igual:
+
+O usuário digita dois números.
+O programa verifica se o primeiro número é maior, menor ou igual ao segundo número e exibe a mensagem "O primeiro número é maior", "O primeiro número é menor", ou "Os números são iguais".
+
+3. Positivo ou negativo:
+
+O usuário digita um número.
+O programa verifica se o número é positivo ou negativo e exibe a mensagem "O número é positivo" ou "O número é negativo".
+
+4. Calculadora de IMC:
+
+O usuário digita seu peso e altura.
+O programa calcula o IMC do usuário e exibe a mensagem "Abaixo do peso", "Peso normal", "Sobrepeso", ou "Obesidade".
+
+5. Simulador de restaurante:
+
+O usuário pode escolher pratos e bebidas do menu.
+O programa calcula o valor total da conta.
