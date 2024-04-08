@@ -39,7 +39,7 @@
 
 [Curso em Vídeo](https://www.youtube.com/watch?v=nIHq1MtJaKs&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=7)
 
-[Curso de Python para iniciantes](https://www.youtube.com/watch?v=Jk4kuuwLThA&list=PLj7gJIFoP7jdirAFg-fHe9HKOnGLGXSHZ)
+[Curso de Python para iniciantes - 1 ao 9](https://www.youtube.com/watch?v=Jk4kuuwLThA&list=PLj7gJIFoP7jdirAFg-fHe9HKOnGLGXSHZ)
 
 
 
