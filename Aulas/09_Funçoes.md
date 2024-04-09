@@ -121,8 +121,7 @@ Nomeado: Independente da ordem, é especificado o nome do parâmetro ao qual se 
 
 ```
 def bem-vindo(nome, sobrenome):
-
-print("Bem-vindo ao Python " + nome, sobrenome + "!")
+  print("Bem-vindo ao Python " + nome, sobrenome + "!")
 
 bem-vindo("Pedro", "Lopes")
 - Bem-vindo ao Python Pedro Lopes!
@@ -134,6 +133,7 @@ A cada parâmetro pode ser atribuído um argumento padrão. Se a função for ch
 ```
 def bem-vindo(nome, idioma = "Python"):
   print("Bem-vindo ao " + idioma, nome + "!")
+
 bem-vindo("Josh")
 - Bem-vindo ao Python Josh!
 bem-vindo("Josh", "Java")
@@ -151,13 +151,14 @@ Oi Paulo!
 Oi Monica!
 Oi Josh!
 ```
+
 ### Quando uma função é definida para realizar um cálculo, por exemplo, e precisamos dela para retornar um valor, é usada a instrução return:
 
 ```
 def quadrado (x):
   quadrado = x ** 2
   return quadrado
-```
+
 print (quadrado (5))
 25
 ```
@@ -167,7 +168,8 @@ Se o código não tiver uma instrução de retornar o valor, a função não vai
 ```	
 def quadrado (x):
   quadrado = x ** 2
-  print (quadrado (5))
+
+print (quadrado (5))
   
 None
 ```
