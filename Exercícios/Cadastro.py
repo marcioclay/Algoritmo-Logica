@@ -1,7 +1,7 @@
 alunos=[]
 def menu():
-    listas=["1-Incluir","2-Excluir","3-Atualizar","4-Listar", "5-Sair"]
-    opcao=int(input(f'{listas}\nSelecione opção: '))
+    print("1-Incluir","2-Excluir","3-Atualizar","4-Listar", "5-Sair")
+    opcao=int(input("Selecione opção: "))
     while opcao!=5:
 
         if opcao==1:
