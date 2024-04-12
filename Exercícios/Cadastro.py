@@ -14,9 +14,9 @@ def menu():
         elif opcao == 3:
             print(alunos)
             nomealterar = input("Qual nome deseja remover? ")
+            posicao=0
             for x in alunos:
                 if nomealterar==x:
-                    posicao=0
                     nome = input("Qual alteração deseja fazer? ")
                     alunos[posicao] = nome
                     break
