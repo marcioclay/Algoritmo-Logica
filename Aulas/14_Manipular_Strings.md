@@ -63,7 +63,18 @@ frase = "Python é uma linguagem poderosa"
 palavras = frase.split()  # palavras será ["Python", "é", "uma", "linguagem", "poderosa"]
 data = "2023-10-27"
 partes = data.split("-")  # partes será ["2023", "10", "27"]
+
+
 ```
+
+Exemplo 2:
+
+frase = "Python é uma linguagem poderosa"
+palavras = frase.split()  # palavras será ["Python", "é", "uma", "linguagem", "poderosa"]
+print(palavras[0])
+
+
+
 5. Indexação e Fatiamento: Acessando Partes da String
 
 Podemos acessar caracteres individuais de uma string usando índices, que começam em 0.
