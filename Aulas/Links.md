@@ -36,6 +36,7 @@
 ### EXTRAS
 
 [Metodos_Strings](https://www.w3schools.com/python/python_strings_methods.asp)
+[Funções Embutidas](https://docs.python.org/pt-br/3.13/library/functions.html)
 
 [Curso em Vídeo](https://www.youtube.com/watch?v=nIHq1MtJaKs&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=7)
 
