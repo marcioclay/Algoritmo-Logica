@@ -1,5 +1,5 @@
-# A função enumerate() em Python é uma função embutida que permite iterar sobre uma sequência (como uma lista, tupla ou string) enquanto acompanha o índice de cada elemento. 
-# Ela retorna um objeto enumerado que gera pares de índice e valor, tornando mais fácil acessar tanto o índice quanto o valor de cada elemento durante a iteração.
+## A função enumerate() em Python é uma função embutida que permite iterar sobre uma sequência (como uma lista, tupla ou string) enquanto acompanha o índice de cada elemento. 
+## Ela retorna um objeto enumerado que gera pares de índice e valor, tornando mais fácil acessar tanto o índice quanto o valor de cada elemento durante a iteração.
 
 Sintaxe:
 
