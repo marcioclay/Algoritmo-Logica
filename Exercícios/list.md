@@ -18,7 +18,8 @@ print(f"A soma dos elementos da lista é: {soma}")
 
 - Crie uma lista chamada notas com os seguintes valores: [7.5, 8.0, 6.5, 9.0, 7.0].
 - Escreva um programa que calcule a média aritmética das notas contidas na lista.
-- Exiba a média na tela. Considere que a média é a soma dos elementos dividida pelo número de elementos.
+- Exiba a média na tela. Considere que a média é a soma dos elementos dividida
+  pelo número de elementos.
 
 ```
 notas = [7.5, 8.0, 6.5, 9.0, 7.0]
@@ -63,6 +64,7 @@ for i in range(len(cores) - 1, -1, -1):
     lista_invertida.append(cores[i])
 print(f"Lista original: {cores}")
 print(f"Lista invertida: {lista_invertida}")
+```
 
 5. Contar Ocorrências de um Elemento:
 
