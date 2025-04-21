@@ -22,7 +22,7 @@ Nomes de variáveis devem ser claros e descritivos, como idade_usuario em vez de
 
 Use boas práticas, como snake_case (letras minúsculas e separadas por _).
 
-2. Principais Tipos de Dados em Python
+## 2. Principais Tipos de Dados em Python
 Python tem diversos tipos de dados. Aqui estão os mais usados:
 
 a) String (Texto)
