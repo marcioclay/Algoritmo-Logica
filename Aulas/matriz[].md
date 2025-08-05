@@ -37,6 +37,35 @@ matriz[1][2] = 10  # Muda o 6 para 10
 ```
 matriz.append([7, 8, 9])
 ```
+🔹 Somar elementos:
+```
+soma = 0
+for linha in matriz:
+    for elemento in linha:
+        soma += elemento
+
+print("Soma dos elementos:", soma)
+```
+⚡ Usando a função sum() e compreensão de listas
+Uma forma mais elegante e compacta:
+
+```
+soma = sum([elemento for linha in matriz for elemento in linha])
+print("Soma:", soma)
+```
+📘 Com NumPy (ideal para matrizes maiores)
+Se estiver usando a biblioteca NumPy:
+
+```
+import numpy as np
+
+matriz_np = np.array([[1, 2, 3],
+                      [4, 5, 6],
+                      [7, 8, 9]])
+
+soma = np.sum(matriz_np)
+print("Soma:", soma)
+```
 📦 Dica: Use o pacote NumPy para operações avançadas
 Para quem quer ir além, o pacote NumPy é ideal. Com ele, você pode fazer cálculos matemáticos com matrizes muito mais facilmente.
 
