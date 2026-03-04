@@ -5,6 +5,7 @@
 - [Como Configurar VSCode Para Python em 2024](https://www.youtube.com/watch?v=BSjdcLzgfIw&t=10s) 
 - [PyCharm 2025: Instalação Rápida e Fácil](https://www.youtube.com/watch?v=E4ojzMimS7s)
 - [PyCharm via WEB](https://www.youtube.com/playlist?list=PLCAhGm8nJ9CDV30W-0q8K4xzmGHIXnW6h)
+- [Google Colab - Programar via WEB](https://colab.research.google.com/) 
 
 ### VÍDEO AULA - Didática Tech
 
