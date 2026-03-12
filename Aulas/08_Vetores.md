@@ -1,118 +1,94 @@
-# Introdução
-As estruturas de dados são ferramentas essenciais para organizar e manipular dados em Python. Cada estrutura possui características e funcionalidades próprias, tornando-as adequadas para diferentes situações.
+##Aula: Manipulação de Listas em Programação
 
-Nesta aula, exploraremos as principais estruturas de dados em Python: listas, tuplas, dicionários e conjuntos.
+### 1. O que é uma Lista?
 
-## 1. Listas
-As listas são estruturas mutáveis que armazenam uma coleção ordenada de elementos de qualquer tipo. São versáteis e podem ser utilizadas para diversos fins, como armazenar nomes, números, datas, etc.
+Uma Lista (ou Array em algumas linguagens) é uma estrutura de dados que permite armazenar múltiplos valores em uma única variável.
 
-### Exemplo:
+Imagine que, em vez de criar as variáveis ip1, ip2, ip3, você cria uma lista chamada ips_da_rede que guarda todos esses endereços. Cada item em uma lista possui uma posição numerada chamada Índice, que sempre começa no 0.
 
-```
-# Criando uma lista
-lista_frutas = ["Maçã", "Banana", "Laranja", "Abacaxi"]
-
-# Acessando elementos
-print(lista_frutas[0])  # Saída: Maçã
-print(lista_frutas[2])  # Saída: Laranja
-
-# Adicionando elementos
-lista_frutas.append("Melancia")
-
-# Removendo elementos
-lista_frutas.remove("Banana")
-
-# Percorrendo a lista
-for fruta in lista_frutas:
-  print(fruta)
-```
-
-### Comentários:
-
-lista_frutas é uma variável do tipo lista que armazena os nomes de quatro frutas.
-Podemos acessar elementos da lista usando índices. O índice 0 representa o primeiro elemento, 1 o segundo, e assim por diante.
-Podemos adicionar novos elementos ao final da lista usando o método append().
-Podemos remover elementos da lista usando o método remove().
-O loop for permite percorrer cada elemento da lista e realizar alguma ação.
-
-## 2. Tuplas
-As tuplas são semelhantes às listas, mas são imutáveis. Isso significa que, após a criação de uma tupla, não é possível adicionar, remover ou modificar seus elementos.
-
-### Exemplo:
+### 2. Criando e Listando (Acesso)
+Para criar uma lista, usamos colchetes []. Para acessar um item específico, usamos o seu índice.
 
 ```
-# Criando uma tupla
-tupla_cores = ("Vermelho", "Verde", "Azul")
+# Criando a lista de dispositivos
+dispositivos = ["Roteador", "Switch", "Servidor", "Desktop"]
 
-# Acessando elementos
-print(tupla_cores[1])  # Saída: Verde
+# Acessando itens pelo índice
+print(dispositivos[0])  # Saída: Roteador
+print(dispositivos[2])  # Saída: Servidor
 
-# Erro: tuplas são imutáveis
-#tupla_cores.append("Amarelo")
-
-# Percorrendo a tupla
-for cor in tupla_cores:
-  print(cor)
+# Listando todos os itens com um laço 'for'
+for d in dispositivos:
+    print(f"Equipamento: {d}")
 ```
-
-### Comentários:
-
-tupla_cores é uma variável do tipo tupla que armazena as cores primárias.
-As tuplas são imutáveis, o que significa que não podemos modificar seus elementos após a criação.
-Podemos acessar elementos da tupla usando índices da mesma forma que as listas.
-
-### 3. Dicionários
-Os dicionários são estruturas que armazenam pares de chave-valor. As chaves são únicas e identificam cada valor associado. Os dicionários são ótimos para armazenar dados de forma organizada e eficiente, como informações de contato, dados de usuários, etc.
-
-Exemplo:
+### 3. Modificando Itens
+Podemos alterar o valor de um item existente referenciando o seu índice e atribuindo um novo valor.
 
 ```
-# Criando um dicionário
-dicionario_aluno = {
-  "nome": "João Silva",
-  "idade": 20,
-  "curso": "Ciência da Computação"
-}
+equipamentos = ["Impressora Laster", "Teclado"]
 
-# Acessando valores
-print(dicionario_aluno["nome"])  # Saída: João Silva
-print(dicionario_aluno["curso"])  # Saída: Ciência da Computação
+# O usuário trocou a impressora por um Scanner
+equipamentos[0] = "Scanner Profissional"
 
-# Adicionando elementos
-dicionario_aluno["cidade"] = "São Paulo"
-
-# Percorrendo o dicionário
-for chave, valor in dicionario_aluno.items():
-  print(f"{chave}: {valor}")
+print(equipamentos) # Saída: ['Scanner Profissional', 'Teclado']
 ```
 
-### Comentários:
+### 4. Incluindo Novos Itens (Inserção)
+Existem duas formas principais de adicionar itens:
 
-dicionario_aluno é uma variável do tipo dicionário que armazena informações de um aluno.
-As chaves do dicionário são strings que identificam cada informação.
-Os valores do dicionário podem ser de qualquer tipo.
-Podemos acessar valores usando a chave como índice.
-O loop for permite percorrer cada par de chave-valor do dicionário.
+.append(): Adiciona o item ao final da lista.
 
-### 4. Conjuntos
-Os conjuntos são estruturas que armazenam coleções não ordenadas de elementos únicos. Eles são úteis para verificar a presença de elementos, realizar operações matemáticas entre conjuntos e eliminar elementos duplicados.
-
-Exemplo:
+.insert(): Adiciona o item em uma posição específica.
 
 ```
-# Criando um conjunto
-numeros = {1, 2, 3, 4, 5, 2, 3}
+softwares = ["Windows 10", "Office 2019"]
 
-# Verificando a presença de elementos
+# Adicionando ao final
+softwares.append("Antivírus")
 
-for x in numeros:
-  print(x)
-# Pode ser usado direto do print
-print( 2 in numeros)
+# Adicionando o Linux na primeira posição (índice 0)
+softwares.insert(0, "Ubuntu Server")
 
-# Uma vez que um conjunto é criado, você não pode alterar seus itens, mas você pode adicionar novos itens.
-# Para adicionar um item a um conjunto, use o add() método.
-numeros = {1,2,3}
-numeros.add(4)
-print(numeros)
+print(softwares) 
+# Saída: ['Ubuntu Server', 'Windows 10', 'Office 2019', 'Antivírus']
 ```
+### 5. Excluindo Itens (Remoção)
+Para remover dados, as formas mais comuns são:
+
+.remove(): Remove pelo valor do item.
+
+.pop(): Remove pelo índice (se não informar o índice, remove o último).
+
+del: Remove um item ou uma fatia da lista pelo índice.
+
+```
+usuarios = ["admin", "convidado", "suporte", "estagiario"]
+
+# Removendo pelo nome
+usuarios.remove("convidado")
+
+# Removendo o último da lista (estagiario)
+usuarios.pop()
+
+# Removendo pelo índice usando del
+del usuarios[0] # Remove o 'admin'
+
+print(usuarios) # Saída: ['suporte']
+```
+
+### 6. Resumo de Comandos Rápidos
+
+<img width="700" height="349" alt="image" src="https://github.com/user-attachments/assets/53c9c4fa-94cd-48fb-9bc8-d494dd4f4201" /> 
+
+### 7. Desafio Prático 🚀
+Crie um programa que gerencie uma Lista de Chamados Técnicos.
+
+O programa deve iniciar com 3 chamados: "Formatação", "Troca de Toner" e "Configurar Wi-Fi".
+
+Adicione um novo chamado: "Instalação de Backup".
+
+O chamado "Troca de Toner" foi resolvido; remova-o da lista.
+
+Exiba na tela a quantidade total de chamados pendentes e a lista atualizada.
+
+
