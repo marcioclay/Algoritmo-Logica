@@ -12,6 +12,8 @@
 - Qual a primeira linha
 - Qual a última linha.
 
+  ---
+
 5. Filtro de palavras
 
 - Leia o arquivo texto.txt e mostre somente as linhas que contenham a palavra "Python".
@@ -28,12 +30,16 @@ Depois leia o arquivo e mostre:
 - Nota;
 - Média geral da turma.
 
+  ---
+
 7. Crie um programa que grave números digitados pelo usuário em numeros.txt.
 
 Depois leia o arquivo e crie:
 
 - pares.txt
 - impares.txt
+
+  ---
 
 8. Crie um programa que abra clientes.txt, solicite um nome e verifique se esse nome está cadastrado no arquivo.
 
