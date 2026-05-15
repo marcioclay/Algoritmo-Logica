@@ -42,16 +42,20 @@ Exiba:
 - "Cliente encontrado"
 - "Cliente não encontrado"
 
-
+---
 9. Crie um programa com menu:
 
  → Adicionar anotação
+ 
  → Listar anotações
+ 
  → Buscar palavra
+ 
  → Sair
 
 Todas as anotações devem ser armazenadas em diario.txt usando with open().
 
+---
 10. Desafio (mais próximo de projeto)
 
 CRUD de arquivo texto
