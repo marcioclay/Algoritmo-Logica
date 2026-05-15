@@ -45,10 +45,10 @@ Exiba:
 
 9. Crie um programa com menu:
 
-1 → Adicionar anotação
-2 → Listar anotações
-3 → Buscar palavra
-4 → Sair
+ → Adicionar anotação
+ → Listar anotações
+ → Buscar palavra
+ → Sair
 
 Todas as anotações devem ser armazenadas em diario.txt usando with open().
 
