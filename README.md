@@ -83,6 +83,37 @@ Práticas:
 - Leitura e exibição de dados;
 - Conversão entre tipos de dados.
 
+### Unidade IV — Operadores e Expressões
 
+- Operadores aritméticos;
+- Operadores relacionais;
+- Operadores lógicos;
+- Operadores de atribuição;
+- Precedência de operadores;
+- Construção de expressões;
+- Avaliação de expressões lógicas.
+
+Práticas:
+
+- Cálculo de médias;
+- Conversão de unidades;
+- Cálculo de valores;
+- Avaliação de condições lógicas.
+
+### Unidade V — Estruturas Condicionais
+
+- Tomada de decisão em algoritmos;
+- Estrutura condicional simples;
+- Estrutura condicional composta;
+- Estruturas condicionais encadeadas;
+- Estruturas de múltipla escolha;
+- Operadores lógicos aplicados às condições.
+
+Práticas
+- Verificação de aprovação de alunos;
+- Classificação de faixas etárias;
+Validação de dados;
+Sistemas de menu;
+Análise de situações com múltiplas condições.
   
 
