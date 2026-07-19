@@ -1,4 +1,7 @@
-# EMENTA — ALGORITMOS E LÓGICA DE PROGRAMAÇÃO
+##  EMENTA — ALGORITMOS E LÓGICA DE PROGRAMAÇÃO
+
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/90c35c1f-6ca6-484d-83a0-da91f48b127f" />
+
 
 ### 1. Identificação da Disciplina
 
