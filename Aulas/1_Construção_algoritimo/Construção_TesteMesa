@@ -1,0 +1,519 @@
+Unidade II — Representação de Algoritmos
+
+Nesta unidade, o estudante aprenderá a organizar, representar e testar algoritmos antes de transformá-los em programas escritos em Python.
+
+A elaboração de um algoritmo é uma etapa importante do desenvolvimento de software. Antes de escrever o código, é necessário compreender o problema e definir uma sequência lógica de instruções para resolvê-lo.
+
+1. Sequência Lógica de Instruções
+
+Um algoritmo é formado por uma sequência de instruções.
+
+Essas instruções devem ser executadas em uma ordem lógica para produzir o resultado esperado.
+
+Considere o seguinte problema:
+
+Calcular o dobro de um número.
+
+Uma sequência lógica de instruções seria:
+
+1. Início
+2. Ler um número
+3. Multiplicar o número por 2
+4. Exibir o resultado
+5. Fim
+
+A ordem é importante.
+
+O algoritmo não poderia executar:
+
+1. Exibir o resultado
+2. Ler o número
+3. Calcular o dobro
+
+Nesse caso, o resultado seria exibido antes de ser calculado.
+
+Estrutura básica
+
+Um algoritmo simples pode ser representado como:
+
+INÍCIO
+   ↓
+ENTRADA DE DADOS
+   ↓
+PROCESSAMENTO
+   ↓
+SAÍDA DE DADOS
+   ↓
+FIM
+Exemplo
+Problema
+
+Calcular a área de um retângulo.
+
+Análise
+
+A fórmula da área de um retângulo é:
+
+Área = base × altura
+Algoritmo
+Início
+
+1. Ler a base.
+2. Ler a altura.
+3. Calcular a área.
+4. Exibir a área.
+
+Fim
+Implementação em Python
+base = float(input("Digite a base: "))
+altura = float(input("Digite a altura: "))
+
+area = base * altura
+
+print("Área:", area)
+
+O algoritmo e o programa possuem a mesma lógica:
+
+Entrada:
+    base
+    altura
+
+Processamento:
+    área = base × altura
+
+Saída:
+    área
+2. Construção de Algoritmos Simples
+
+Para construir um algoritmo, é importante seguir algumas etapas.
+
+Etapa 1 — Compreender o problema
+
+Leia atentamente o problema e identifique o que precisa ser resolvido.
+
+Exemplo
+
+Criar um programa que receba o preço de um produto e a quantidade comprada e calcule o valor total.
+
+Etapa 2 — Identificar as entradas
+
+Pergunte:
+
+Quais dados são necessários para resolver o problema?
+
+Nesse exemplo:
+
+Preço do produto
+Quantidade comprada
+Etapa 3 — Identificar o processamento
+
+Pergunte:
+
+O que precisa ser feito com os dados?
+
+Valor total = preço × quantidade
+Etapa 4 — Identificar a saída
+
+Pergunte:
+
+Qual resultado deve ser apresentado?
+
+Valor total da compra
+Etapa 5 — Organizar as instruções
+
+O algoritmo pode ser escrito da seguinte forma:
+
+Início
+
+1. Ler o preço do produto.
+2. Ler a quantidade comprada.
+3. Multiplicar o preço pela quantidade.
+4. Armazenar o resultado no valor total.
+5. Exibir o valor total.
+
+Fim
+Etapa 6 — Implementar em Python
+preco = float(input("Digite o preço do produto: "))
+quantidade = int(input("Digite a quantidade: "))
+
+total = preco * quantidade
+
+print("Valor total:", total)
+3. Exemplos de Algoritmos Simples
+Exemplo 1 — Soma de dois números
+Problema
+
+Receber dois números e exibir a soma.
+
+Algoritmo
+Início
+
+1. Ler o primeiro número.
+2. Ler o segundo número.
+3. Somar os dois números.
+4. Exibir o resultado.
+
+Fim
+Python
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+
+soma = numero1 + numero2
+
+print("Resultado:", soma)
+Exemplo 2 — Conversão de temperatura
+Problema
+
+Converter uma temperatura de Celsius para Fahrenheit.
+
+A fórmula é:
+
+Fahrenheit = (Celsius × 9 / 5) + 32
+Algoritmo
+Início
+
+1. Ler a temperatura em Celsius.
+2. Multiplicar Celsius por 9.
+3. Dividir o resultado por 5.
+4. Somar 32.
+5. Exibir a temperatura em Fahrenheit.
+
+Fim
+Python
+celsius = float(input("Digite a temperatura em Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Temperatura em Fahrenheit:", fahrenheit)
+Exemplo 3 — Cálculo da média
+Problema
+
+Receber três notas e calcular a média.
+
+Algoritmo
+Início
+
+1. Ler a primeira nota.
+2. Ler a segunda nota.
+3. Ler a terceira nota.
+4. Somar as três notas.
+5. Dividir a soma por 3.
+6. Exibir a média.
+
+Fim
+Python
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print("Média:", media)
+4. Teste Manual de Algoritmos
+
+Antes de executar um programa no computador, podemos realizar um teste manual do algoritmo.
+
+O teste manual consiste em simular a execução do algoritmo, acompanhando os valores das variáveis a cada etapa.
+
+Esse processo também é conhecido como:
+
+Rastreamento de algoritmo;
+Teste de mesa;
+Dry run.
+
+O objetivo é verificar se a lógica está correta.
+
+5. Exemplo de Teste Manual
+
+Considere o seguinte algoritmo:
+
+Início
+
+1. Ler o número A.
+2. Ler o número B.
+3. Calcular a soma:
+      soma = A + B
+4. Exibir a soma.
+
+Fim
+
+Suponha que os valores de entrada sejam:
+
+A = 10
+B = 5
+
+Podemos acompanhar a execução:
+
+Etapa	A	B	Soma
+Início	-	-	-
+Ler A	10	-	-
+Ler B	10	5	-
+Calcular soma	10	5	15
+Exibir resultado	10	5	15
+
+Resultado:
+
+15
+6. Teste Manual com Python
+
+Considere o programa:
+
+numero = 5
+
+dobro = numero * 2
+
+resultado = dobro + 10
+
+print(resultado)
+
+Vamos acompanhar a execução.
+
+Etapa 1
+numero = 5
+
+Tabela:
+
+Variável	Valor
+numero	5
+dobro	-
+resultado	-
+Etapa 2
+dobro = numero * 2
+
+Cálculo:
+
+dobro = 5 × 2
+dobro = 10
+
+Tabela:
+
+Variável	Valor
+numero	5
+dobro	10
+resultado	-
+Etapa 3
+resultado = dobro + 10
+
+Cálculo:
+
+resultado = 10 + 10
+resultado = 20
+
+Tabela final:
+
+Variável	Valor
+numero	5
+dobro	10
+resultado	20
+
+Saída:
+
+20
+7. Teste de Mesa com Entrada de Dados
+
+Considere o programa:
+
+valor1 = 10
+valor2 = 4
+
+soma = valor1 + valor2
+multiplicacao = valor1 * valor2
+
+print(soma)
+print(multiplicacao)
+
+A tabela de acompanhamento pode ser:
+
+Etapa	valor1	valor2	soma	multiplicacao
+Inicialização	10	4	-	-
+Soma	10	4	14	-
+Multiplicação	10	4	14	40
+
+Resultado:
+
+14
+40
+8. Por que Realizar Testes Manuais?
+
+O teste manual permite:
+
+Verificar a sequência de execução;
+Acompanhar o valor das variáveis;
+Identificar erros de lógica;
+Confirmar se os cálculos estão corretos;
+Compreender o funcionamento de um programa;
+Prever o resultado antes da execução.
+
+Um programa pode estar escrito corretamente do ponto de vista da sintaxe e ainda possuir um erro de lógica.
+
+O teste manual ajuda a identificar esse tipo de problema.
+
+9. Exemplo de Erro de Lógica
+
+Considere o programa:
+
+nota1 = 8
+nota2 = 6
+
+media = nota1 + nota2 / 2
+
+print(media)
+
+Um estudante pode esperar o resultado:
+
+7
+
+Mas o Python executará:
+
+nota1 + (nota2 / 2)
+
+Ou seja:
+
+8 + (6 / 2)
+8 + 3
+11
+
+A tabela de acompanhamento seria:
+
+Etapa	nota1	nota2	media
+Inicialização	8	6	-
+Divisão	8	6	3
+Soma	8	6	11
+
+O resultado está incorreto.
+
+A solução correta é:
+
+nota1 = 8
+nota2 = 6
+
+media = (nota1 + nota2) / 2
+
+print(media)
+
+Agora:
+
+(8 + 6) / 2
+14 / 2
+7
+10. Modelo para Teste Manual
+
+Para realizar um teste manual, utilize o seguinte procedimento:
+
+1. Leia o código ou algoritmo
+
+Compreenda a sequência de instruções.
+
+2. Liste as variáveis
+
+Identifique todas as variáveis utilizadas.
+
+3. Defina os valores de entrada
+
+Escolha valores para testar o algoritmo.
+
+4. Execute uma instrução por vez
+
+Não pule etapas.
+
+5. Atualize a tabela
+
+Registre o valor das variáveis após cada instrução importante.
+
+6. Compare o resultado
+
+Verifique se o resultado obtido corresponde ao resultado esperado.
+
+Atividade Prática 1 — Soma
+
+Crie um algoritmo que:
+
+Receba dois números;
+Calcule a soma;
+Exiba o resultado.
+
+Depois, escreva o programa em Python.
+
+Teste manual
+
+Utilize:
+
+Primeiro número: 15
+Segundo número: 8
+
+Preencha a tabela:
+
+Etapa	numero1	numero2	soma
+Entrada			
+Processamento			
+Saída			
+Atividade Prática 2 — Média
+
+Crie um algoritmo que:
+
+Receba três notas;
+Calcule a média;
+Exiba o resultado.
+
+Utilize os valores:
+
+Nota 1: 7
+Nota 2: 8
+Nota 3: 9
+
+Crie uma tabela de acompanhamento.
+
+Atividade Prática 3 — Compra
+
+Crie um programa em Python que:
+
+Receba o preço de um produto;
+Receba a quantidade comprada;
+Calcule o valor total;
+Exiba o resultado.
+
+Utilize:
+
+Preço: 25.50
+Quantidade: 3
+
+Antes de escrever o código, construa o algoritmo.
+
+Atividade Prática 4 — Teste de Mesa
+
+Analise o código:
+
+numero = 4
+
+resultado1 = numero + 6
+resultado2 = resultado1 * 2
+resultado3 = resultado2 - 5
+
+print(resultado3)
+
+Preencha a tabela:
+
+Etapa	numero	resultado1	resultado2	resultado3
+Inicialização				
+Soma				
+Multiplicação				
+Subtração				
+
+Qual será o resultado exibido?
+
+Resumo
+
+Nesta unidade, aprendemos que:
+
+Um algoritmo é formado por uma sequência lógica de instruções;
+A ordem das instruções influencia diretamente o resultado;
+A construção de um algoritmo deve considerar:
+Entrada;
+Processamento;
+Saída;
+Um algoritmo pode ser transformado em um programa utilizando Python;
+O teste manual permite simular a execução de um algoritmo;
+A tabela de acompanhamento permite observar a evolução dos valores das variáveis;
+O teste manual é uma importante ferramenta para identificar erros de lógica.
+
+Antes de executar um programa, o programador deve ser capaz de acompanhar mentalmente ou manualmente a execução de suas instruções.
