@@ -112,8 +112,95 @@ Práticas:
 Práticas
 - Verificação de aprovação de alunos;
 - Classificação de faixas etárias;
-Validação de dados;
-Sistemas de menu;
-Análise de situações com múltiplas condições.
+- Validação de dados;
+- Sistemas de menu;
+- Análise de situações com múltiplas condições.
+
   
+ ### Unidade VI — Estruturas de Repetição
+ 
+- Conceito de repetição;
+- Laço com condição no início;
+- Laço com condição no final;
+- Laço com contador;
+- Contadores e acumuladores;
+- Repetições aninhadas;
+- Controle de repetição.
+
+Práticas sugeridas
+- Tabuada;
+- Soma e média de valores;
+- Contagem de elementos;
+- Menus interativos;
+- Validação de entrada de dados;
+- Problemas envolvendo repetições aninhadas.
+
+### Unidade VII — Funções e Modularização
+
+- Conceito de modularização;
+- Funções e procedimentos;
+- Parâmetros;
+- Retorno de valores;
+- Escopo de variáveis;
+- Reutilização de código;
+- Organização de programas em módulos.
+
+Práticas 
+- Criar funções matemáticas;
+- Criar funções de validação;
+- Dividir um programa em módulos;
+- Desenvolver pequenos sistemas modularizados.
+
+### Unidade VIII — Vetores e Matrizes
+- Conceito de estruturas de dados;
+- Vetores;
+- Índices;
+- Percorrimento de vetores;
+- Inserção e consulta de dados;
+- Busca de elementos;
+- Maior e menor valor;
+- Soma e média de elementos;
+- Matrizes;
+- Percorrimento de matrizes.
+
+Práticas
+- Cadastro de notas;
+- Listas de produtos;
+- Busca de elementos;
+- Estatísticas simples;
+- Representação de tabelas utilizando matrizes.
+
+### Unidade IX — Strings e Manipulação de Texto
+- Conceito de cadeia de caracteres;
+- Operações com strings;
+- Concatenação;
+- Comparação;
+- Busca de caracteres e palavras;
+- Validação de textos;
+- Formatação de dados.
+
+Práticas
+- Validação de nomes;
+- Verificação de senhas;
+- Contagem de caracteres;
+- Processamento de textos simples.
+
+### Unidade X — Projeto
+- Análise de requisitos simples;
+- Definição do problema;
+- Elaboração do algoritmo;
+- Desenvolvimento da solução;
+- Testes;
+- Identificação e correção de erros;
+- Documentação;
+- Apresentação do projeto.
+
+Projeto sugerido
+Desenvolvimento de uma aplicação de pequeno porte, como:
+- Sistema de cadastro;
+- Sistema de controle de notas;
+- Sistema de estoque;
+- Sistema de atendimento;
+- Sistema de gerenciamento de tarefas;
+- Quiz interativo. 
 
