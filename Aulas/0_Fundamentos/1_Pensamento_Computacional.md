@@ -1,16 +1,18 @@
-Fundamentos do Pensamento Computacional e da Programação
-1. Pensamento Computacional
+## Fundamentos do Pensamento Computacional e da Programação
+
+### 1. Pensamento Computacional
 
 O pensamento computacional é uma forma estruturada de analisar problemas e desenvolver soluções que possam ser executadas por pessoas ou computadores.
 
 Apesar do nome, pensamento computacional não significa pensar como um computador. Significa utilizar estratégias organizadas para resolver problemas de maneira lógica, eficiente e sistemática.
 
 O pensamento computacional é baseado em algumas habilidades fundamentais:
-
+```
 Decomposição de problemas;
 Reconhecimento de padrões;
 Abstração;
 Elaboração de algoritmos.
+```
 
 Essas habilidades são utilizadas tanto na programação quanto em situações do cotidiano.
 
@@ -18,6 +20,7 @@ Exemplo
 
 Imagine o seguinte problema:
 
+```
 Desenvolver um programa em Python para calcular a média de um aluno e informar se ele foi aprovado.
 
 Antes de escrever o código, é necessário pensar sobre o problema:
@@ -26,17 +29,17 @@ Quais dados serão necessários?
 Como a média será calculada?
 Qual será a regra para aprovação?
 Qual resultado deverá ser exibido?
-
+```
 Esse processo de análise faz parte do pensamento computacional.
 
-2. Decomposição de Problemas
+### 2. Decomposição de Problemas
 
 A decomposição consiste em dividir um problema complexo em partes menores e mais fáceis de compreender e resolver.
 
 Um problema grande pode parecer difícil quando analisado como um todo. Entretanto, quando dividido em etapas menores, sua solução se torna mais simples.
 
 Exemplo
-
+```
 Considere o problema:
 
 Criar um sistema de vendas para uma loja.
@@ -52,13 +55,14 @@ Sistema de vendas
 ├── Calcular total da compra
 ├── Aplicar descontos
 └── Emitir relatório
+```
 
 Cada parte pode ser analisada e desenvolvida separadamente.
 
 Outro exemplo
 
 Problema:
-
+```
 Criar um programa para calcular a média de um aluno e informar sua situação.
 
 Podemos decompor o problema em:
@@ -68,9 +72,11 @@ Podemos decompor o problema em:
 3. Calcular a média.
 4. Verificar se a média é suficiente para aprovação.
 5. Exibir o resultado.
+```
 
 Em Python:
 
+```
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
 
@@ -80,12 +86,13 @@ if media >= 6:
     print("Aluno aprovado")
 else:
     print("Aluno reprovado")
+```
 
 O programa foi construído a partir de pequenas etapas.
 
 A decomposição transforma um problema grande em vários problemas menores.
 
-3. Abstração
+### 3. Abstração
 
 A abstração consiste em concentrar a atenção nas informações mais importantes de um problema e ignorar detalhes que não são necessários para sua solução.
 
@@ -96,7 +103,7 @@ Exemplo
 Imagine um sistema para calcular a média de um aluno.
 
 Na vida real, um aluno possui diversas informações:
-
+```
 Nome;
 CPF;
 Endereço;
@@ -106,15 +113,16 @@ Curso;
 Turma;
 Notas;
 Frequência.
-
+```
 Entretanto, se o objetivo do programa é apenas calcular a média, talvez sejam necessárias somente as notas:
-
+```
 Aluno
 │
 └── Notas
     ├── Nota 1
     └── Nota 2
-
+```
+```
 Em Python:
 
 nota1 = 7
@@ -123,14 +131,14 @@ nota2 = 8
 media = (nota1 + nota2) / 2
 
 print(media)
-
+```
 Para calcular a média, não é necessário conhecer o endereço ou o telefone do aluno.
 
 A abstração permite concentrar-se apenas nas informações relevantes para o problema.
 
 Abstrair é simplificar um problema, mantendo apenas os elementos importantes para sua solução.
 
-4. Reconhecimento de Padrões
+### 4. Reconhecimento de Padrões
 
 O reconhecimento de padrões consiste em identificar características ou comportamentos que se repetem em diferentes problemas.
 
@@ -139,19 +147,22 @@ Quando identificamos um padrão, podemos reutilizar uma solução ou uma estrat�
 Exemplo
 
 Observe os seguintes problemas:
-
+```
 Problema 1
 
 Calcular a média de duas notas:
 
 media = (nota1 + nota2) / 2
+```
 Problema 2
-
+```
 Calcular a média de três notas:
 
 media = (nota1 + nota2 + nota3) / 3
+```
 Problema 3
 
+```
 Calcular a média de quatro notas:
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
@@ -159,14 +170,16 @@ media = (nota1 + nota2 + nota3 + nota4) / 4
 Existe um padrão:
 
 Média = soma dos valores / quantidade de valores
+```
 
 Esse padrão pode ser utilizado em vários problemas.
 
 Outro exemplo é o processamento de vários valores:
-
+```
 for numero in range(1, 6):
     print(numero)
-
+```
+```
 O programa apresenta:
 
 1
@@ -174,21 +187,22 @@ O programa apresenta:
 3
 4
 5
-
+```
 O padrão é:
 
 Repetir uma operação para vários valores.
 
 O reconhecimento de padrões ajuda o programador a:
 
-Evitar a repetição desnecessária de soluções;
-Identificar estruturas semelhantes;
-Reutilizar ideias;
-Desenvolver soluções mais rapidamente.
-5. Entrada, Processamento e Saída
+- Evitar a repetição desnecessária de soluções;
+- Identificar estruturas semelhantes;
+- Reutilizar ideias;
+- Desenvolver soluções mais rapidamente.
+
+### 5. Entrada, Processamento e Saída
 
 Uma grande quantidade de programas pode ser compreendida por meio do modelo:
-
+```
 ENTRADA → PROCESSAMENTO → SAÍDA
 Entrada
 
@@ -197,41 +211,44 @@ A entrada corresponde aos dados fornecidos ao programa.
 Em Python, normalmente utilizamos a função input() para receber dados do usuário.
 
 nome = input("Digite seu nome: ")
+```
 
 Nesse exemplo, o usuário fornece um nome.
 
 Outro exemplo:
-
+```
 idade = int(input("Digite sua idade: "))
 
 A função input() recebe o valor como texto. Por isso, utilizamos int() para convertê-lo para um número inteiro.
-
+```
 Processamento
 
 O processamento corresponde às operações realizadas pelo programa sobre os dados recebidos.
-
+```
 Exemplo:
 
 nota1 = 7
 nota2 = 8
 
 media = (nota1 + nota2) / 2
+```
 
 Nesse caso, o processamento é:
-
+```
 Somar as notas
 Dividir o resultado por 2
 Saída
-
+```
 A saída é o resultado apresentado pelo programa.
 
 Em Python, utilizamos a função print():
-
+```
 print(media)
 Exemplo Completo
 # Entrada
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
+```
 
 # Processamento
 media = (nota1 + nota2) / 2
@@ -259,7 +276,8 @@ A estrutura pode ser representada assim:
 │     SAÍDA    │
 │ exibir média │
 └──────────────┘
-6. Conceito de Linguagem de Programação
+
+### 6. Conceito de Linguagem de Programação
 
 Uma linguagem de programação é um conjunto de regras e comandos utilizados para escrever programas.
 
