@@ -493,42 +493,15 @@ Lógica	O programa executa, mas produz resultado incorreto	Fórmula errada
 
 A resolução de um problema utilizando programação pode seguir o seguinte processo:
 
-┌────────────────────┐
-│ 1. Compreender     │
-│    o problema      │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 2. Decompor        │
-│    o problema      │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 3. Identificar     │
-│    padrões         │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 4. Abstrair        │
-│    informações     │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 5. Criar algoritmo │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 6. Escrever código │
-│    em Python       │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 7. Testar          │
-└─────────┬──────────┘
-          ▼
-┌────────────────────┐
-│ 8. Corrigir erros  │
-└────────────────────┘
+1. Compreender o problema  
+2. Decompor o problema  
+3. Identificar padrões  
+4. Abstrair informações  
+5. Criar algoritmo  
+6. Escrever código em Python  
+7. Testar  
+8. Corrigir erros  
+
 
 Esse processo demonstra que programar não significa apenas escrever código.
 
