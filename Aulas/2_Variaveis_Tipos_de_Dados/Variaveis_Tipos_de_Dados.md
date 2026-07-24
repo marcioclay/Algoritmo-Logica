@@ -7,6 +7,8 @@
 
 Os programas precisam trabalhar com informações.
 
+
+
 Um sistema pode precisar armazenar:
 
 - Nome de um usuário;
