@@ -41,6 +41,12 @@
 - [str_04](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/str_04.py)  
   
 
+#### Modelo de MENU
+
+- [MENU 1](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/Cadastro.py)  
+  
+
+
 <!--
 ## Anotações importantes
 
