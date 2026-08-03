@@ -82,14 +82,14 @@ O resultado de uma comparação sempre será:
 - True (verdadeiro)
 - False (falso)
 
-  | Operador | Significado    |
-| -------- | -------------- |
-| ==       | Igual          |
-| !=       | Diferente      |
-| >        | Maior          |
-| <        | Menor          |
-| >=       | Maior ou igual |
-| <=       | Menor ou igual |
+| Operador | Significado |
+|-----------|-------------|
+| == | Igual |
+| != | Diferente |
+| > | Maior |
+| < | Menor |
+| >= | Maior ou igual |
+| <= | Menor ou igual |
 
 Exemplo
 ```
