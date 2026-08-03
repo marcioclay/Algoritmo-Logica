@@ -50,8 +50,11 @@
 
 - [Tuplas](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/Exercicios_Logica_de_Programacao.pdf)  
 
+#### Exercícios
 
+- [AAAAA](XXXXXXXXXXXX)
 
+---
 <!--
 ## Anotações importantes
 
