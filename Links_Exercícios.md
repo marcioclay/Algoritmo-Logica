@@ -52,7 +52,7 @@
 
 #### Exercícios
 
-- [AAAAA](XXXXXXXXXXXX)
+- [Listas_1](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/list.md)
 
 ---
 <!--
