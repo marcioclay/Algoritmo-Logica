@@ -46,6 +46,11 @@
 - [MENU 1](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/Cadastro.py)  
   
 
+#### Tuplas/Listas/Dicionarios/Conjuntos
+
+- [Tuplas](https://github.com/marcioclay/Algoritmo-Logica/blob/main/Exerc%C3%ADcios/Exercicios_Logica_de_Programacao.pdf)  
+
+
 
 <!--
 ## Anotações importantes
