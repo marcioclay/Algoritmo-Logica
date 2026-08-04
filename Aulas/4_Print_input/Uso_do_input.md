@@ -158,4 +158,37 @@ Idade: 20 anos
 Altura: 1.68 metros
 ````
 
+### 9. Principais conversões de dados
 
+| Função    | Tipo de dado   | Exemplo                   |
+| --------- | -------------- | ------------------------- |
+| `input()` | Texto (`str`)  | `nome = input()`          |
+| `int()`   | Número inteiro | `idade = int(input())`    |
+| `float()` | Número decimal | `altura = float(input())` |
+| `str()`   | Texto          | `texto = str(100)`        |
+
+
+
+Exemplo com cálculos
+```
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+
+media = (nota1 + nota2) / 2
+
+print(f"Média = {media:.2f}")
+```
+
+Exemplo
+```
+Digite a primeira nota: 8.5
+Digite a segunda nota: 7.0
+
+Média = 7.75
+```
+Resumo
+
+- input() é utilizado para receber informações digitadas pelo usuário.
+- O valor retornado por input() é sempre uma string (texto).
+- Para realizar cálculos, é necessário converter o valor para int ou float.
+- Utilize f-string para exibir as informações de forma clara e organizada.
