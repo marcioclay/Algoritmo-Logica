@@ -1,5 +1,7 @@
 ## Atividade de Fixação - Lista
 
+
+
  1. Soma dos Elementos:
 
 - Crie uma lista chamada numeros com os seguintes valores: [10, 5, 20, 8, 15].
