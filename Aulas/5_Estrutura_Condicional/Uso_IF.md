@@ -69,6 +69,7 @@ Em muitas situações, desejamos executar uma ação quando a condição for ver
 Para isso utilizamos o else.
 
 Sintaxe
+
 ```
 if condição:
     instruções
@@ -77,6 +78,7 @@ else:
 ```
 
 Exemplo 1
+
 ```
 idade = 16
 
@@ -85,7 +87,9 @@ if idade >= 18:
 else:
     print("Menor de idade.")
 ```
+
 Saída
+
 ```
 Menor de idade.
 Exemplo 2
@@ -98,13 +102,15 @@ else:
 ```
 
 Exemplo com input()
-````
+
+```
 senha = input("Digite a senha: ")
 if senha == "python123":
     print("Acesso permitido.")
 else:
     print("Senha incorreta.")
 ```
+
 ### 3. If Aninhado
 
 O if aninhado ocorre quando um if é colocado dentro de outro if.
@@ -112,6 +118,7 @@ O if aninhado ocorre quando um if é colocado dentro de outro if.
 Ele é utilizado quando uma decisão depende de outra decisão.
 
 Sintaxe
+
 ```
 if condição1:
     if condição2:
