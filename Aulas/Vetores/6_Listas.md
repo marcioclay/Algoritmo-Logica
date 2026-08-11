@@ -12,7 +12,7 @@ aluno2 = "Carlos"
 aluno3 = "João"
 aluno4 = "Maria"
 aluno5 = "Pedro"
-
+```
 Isso funciona, mas não é uma forma prática de trabalhar com muitos dados.
 
 Podemos utilizar uma lista: 
