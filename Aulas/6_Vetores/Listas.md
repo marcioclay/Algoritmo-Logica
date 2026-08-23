@@ -119,6 +119,7 @@ O primeiro elemento está no índice 0, e não no índice 1.
 
 Podemos alterar um elemento utilizando seu índice.
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos[1] = "Pedro"
@@ -128,13 +129,14 @@ print(alunos)
 Saída:
 
 ['Ana', 'Pedro', 'João']
+```
 
 O elemento "Carlos" foi substituído por "Pedro".
 
-6. Adicionando elementos com append()
+## 6. Adicionando elementos com append()
 
 O método append() adiciona um novo elemento no final da lista.
-
+```
 alunos = ["Ana", "Carlos"]
 
 alunos.append("João")
@@ -144,9 +146,11 @@ print(alunos)
 Saída:
 
 ['Ana', 'Carlos', 'João']
+```
 
 Podemos adicionar vários elementos:
 
+```
 alunos.append("Maria")
 alunos.append("Pedro")
 
@@ -155,16 +159,19 @@ print(alunos)
 Saída:
 
 ['Ana', 'Carlos', 'João', 'Maria', 'Pedro']
-7. Inserindo elementos com insert()
+```
+
+## 7. Inserindo elementos com insert()
 
 O método insert() permite adicionar um elemento em uma posição específica.
 
 A sintaxe é:
-
+```
 lista.insert(posicao, elemento)
-
+```
 Exemplo:
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos.insert(1, "Maria")
@@ -174,13 +181,15 @@ print(alunos)
 Saída:
 
 ['Ana', 'Maria', 'Carlos', 'João']
+```
 
 Observe que "Maria" foi inserida no índice 1.
 
-8. Removendo elementos com remove()
+## 8. Removendo elementos com remove()
 
 O método remove() remove um elemento pelo seu valor.
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos.remove("Carlos")
@@ -190,20 +199,23 @@ print(alunos)
 Saída:
 
 ['Ana', 'João']
+```
+
 Atenção
 
 O valor informado precisa existir na lista.
 
 Se tentarmos:
-
+```
 alunos.remove("Pedro")
+```
 
 e "Pedro" não estiver na lista, o Python apresentará um erro.
 
-9. Removendo elementos com pop()
+## 9. Removendo elementos com pop()
 
 O método pop() remove um elemento utilizando seu índice.
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos.pop(1)
@@ -213,13 +225,14 @@ print(alunos)
 Saída:
 
 ['Ana', 'João']
+```
 
 O elemento que estava no índice 1 foi removido.
 
 pop() sem índice
 
 Também podemos utilizar pop() sem informar o índice:
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos.pop()
@@ -229,13 +242,15 @@ print(alunos)
 Saída:
 
 ['Ana', 'Carlos']
+```
 
 Quando utilizado sem índice, pop() remove o último elemento.
 
-10. Removendo elementos com del
+## 10. Removendo elementos com del
 
 Outra forma de remover um elemento é utilizando del.
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 del alunos[1]
@@ -245,17 +260,20 @@ print(alunos)
 Saída:
 
 ['Ana', 'João']
+```
 
 Também podemos utilizar del para excluir toda a lista:
-
+```
 del alunos
+```
 
 Depois disso, a variável alunos não existirá mais.
 
-11. Listando os elementos
+## 11. Listando os elementos
 
 Podemos mostrar uma lista inteira utilizando print():
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 print(alunos)
@@ -263,11 +281,13 @@ print(alunos)
 Saída:
 
 ['Ana', 'Carlos', 'João']
+```
 
 Porém, muitas vezes queremos mostrar cada elemento separadamente.
 
 Para isso podemos utilizar o for:
 
+```
 alunos = ["Ana", "Carlos", "João"]
 
 for aluno in alunos:
@@ -278,13 +298,14 @@ Saída:
 Ana
 Carlos
 João
+```
 
 O for percorre a lista elemento por elemento.
 
-12. Descobrindo a quantidade de elementos
+## 12. Descobrindo a quantidade de elementos
 
 A função len() informa a quantidade de elementos existentes na lista.
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 print(len(alunos))
@@ -292,9 +313,10 @@ print(len(alunos))
 Saída:
 
 3
+```
 
 Outro exemplo:
-
+```
 numeros = [10, 20, 30, 40, 50]
 
 print(len(numeros))
@@ -302,10 +324,12 @@ print(len(numeros))
 Saída:
 
 5
-13. Verificando se um elemento existe
+```
+
+## 13. Verificando se um elemento existe
 
 Podemos verificar se determinado elemento está dentro da lista utilizando in.
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 print("Ana" in alunos)
@@ -313,17 +337,18 @@ print("Ana" in alunos)
 Saída:
 
 True
+```
 
 Agora:
-
+```
 print("Pedro" in alunos)
 
 Saída:
 
 False
-
+```
 Podemos utilizar essa verificação com if:
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 nome = input("Digite um nome: ")
@@ -332,10 +357,12 @@ if nome in alunos:
     print("Aluno encontrado!")
 else:
     print("Aluno não encontrado!")
-14. Percorrendo uma lista com for
+```
+
+## 14. Percorrendo uma lista com for
 
 Uma das operações mais importantes com listas é percorrer seus elementos.
-
+```
 frutas = ["maçã", "banana", "laranja", "uva"]
 
 for fruta in frutas:
@@ -347,13 +374,13 @@ maçã
 banana
 laranja
 uva
-
+```
 A variável fruta recebe um elemento da lista a cada repetição.
 
-15. Percorrendo uma lista utilizando índices
+## 15. Percorrendo uma lista utilizando índices
 
 Também podemos percorrer uma lista utilizando range() e len().
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 for i in range(len(alunos)):
@@ -364,23 +391,28 @@ Saída:
 Ana
 Carlos
 João
+```
 
 Nesse exemplo:
-
+```
 len(alunos) informa a quantidade de elementos;
 range() cria uma sequência de números;
 i representa o índice;
 alunos[i] acessa o elemento.
+```
 
 Quando não precisamos do índice, é mais simples utilizar:
-
+```
 for aluno in alunos:
     print(aluno)
-16. Ordenando uma lista com sort()
+```
+
+## 16. Ordenando uma lista com sort()
 
 O método sort() organiza os elementos da lista.
 
 Números
+```
 numeros = [50, 10, 30, 20, 40]
 
 numeros.sort()
@@ -390,7 +422,11 @@ print(numeros)
 Saída:
 
 [10, 20, 30, 40, 50]
+
+```
+
 Strings
+```
 alunos = ["João", "Ana", "Carlos", "Maria"]
 
 alunos.sort()
@@ -400,10 +436,12 @@ print(alunos)
 Saída:
 
 ['Ana', 'Carlos', 'João', 'Maria']
-17. Invertendo uma lista com reverse()
+```
+
+## 17. Invertendo uma lista com reverse()
 
 O método reverse() inverte a ordem dos elementos.
-
+```
 numeros = [10, 20, 30, 40, 50]
 
 numeros.reverse()
@@ -413,10 +451,12 @@ print(numeros)
 Saída:
 
 [50, 40, 30, 20, 10]
-18. Trabalhando com listas de números
+```
+
+## 18. Trabalhando com listas de números
 
 Podemos utilizar algumas funções do Python para trabalhar com listas numéricas.
-
+```
 notas = [7, 8, 9, 6, 10]
 Maior valor
 print(max(notas))
@@ -424,28 +464,39 @@ print(max(notas))
 Saída:
 
 10
+```
+
 Menor valor
+```
 print(min(notas))
 
 Saída:
 
 6
+```
+
 Soma
+```
 print(sum(notas))
 
 Saída:
 
 40
+```
+
 Quantidade
+```
 print(len(notas))
 
 Saída:
 
 5
+```
+
 Média
 
 Podemos utilizar essas funções para calcular a média:
-
+```
 media = sum(notas) / len(notas)
 
 print(media)
@@ -453,10 +504,12 @@ print(media)
 Saída:
 
 8.0
-19. Copiando uma lista
+```
+
+## 19. Copiando uma lista
 
 Podemos criar uma cópia de uma lista utilizando copy().
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 copia = alunos.copy()
@@ -466,13 +519,14 @@ print(copia)
 Saída:
 
 ['Ana', 'Carlos', 'João']
+```
 
 A cópia permite trabalhar com uma segunda lista sem alterar diretamente a lista original.
 
-20. Limpando uma lista
+## 20. Limpando uma lista
 
 O método clear() remove todos os elementos da lista.
-
+```
 alunos = ["Ana", "Carlos", "João"]
 
 alunos.clear()
@@ -482,13 +536,14 @@ print(alunos)
 Saída:
 
 []
+```
 
 A lista continua existindo, mas agora está vazia.
 
-21. Exemplo completo
+## 21. Exemplo completo
 
 Vamos criar um programa simples para cadastrar alunos.
-
+```
 alunos = []
 
 alunos.append("Ana")
@@ -509,10 +564,13 @@ Ana
 Carlos
 João
 Quantidade de alunos: 3
-22. Lista utilizando input()
+```
+
+
+## 22. Lista utilizando input()
 
 Podemos permitir que o usuário informe os nomes.
-
+```
 alunos = []
 
 nome1 = input("Digite o primeiro aluno: ")
@@ -527,10 +585,13 @@ print("\nAlunos cadastrados:")
 
 for aluno in alunos:
     print(aluno)
-23. Cadastro utilizando for
+```
+
+## 23. Cadastro utilizando for
 
 Podemos melhorar o programa anterior utilizando uma estrutura de repetição.
 
+```
 alunos = []
 
 for i in range(3):
@@ -541,6 +602,7 @@ print("\nAlunos cadastrados:")
 
 for aluno in alunos:
     print(aluno)
+```
 
 Nesse exemplo:
 
@@ -549,7 +611,10 @@ O for é executado três vezes.
 O usuário informa um nome.
 O nome é adicionado à lista.
 Ao final, os nomes são apresentados.
-24. Principais comandos
+
+
+## 24. Principais comandos
+
 Comando	Função	Exemplo
 []	Cria uma lista	alunos = []
 append()	Adiciona no final	alunos.append("Ana")
