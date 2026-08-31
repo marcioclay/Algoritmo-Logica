@@ -615,22 +615,25 @@ Ao final, os nomes são apresentados.
 
 ## 24. Principais comandos
 
-Comando	Função	Exemplo
-[]	Cria uma lista	alunos = []
-append()	Adiciona no final	alunos.append("Ana")
-insert()	Adiciona em uma posição	alunos.insert(1, "Ana")
-remove()	Remove pelo valor	alunos.remove("Ana")
-pop()	Remove pelo índice	alunos.pop(0)
-del	Remove pelo índice	del alunos[0]
-len()	Retorna a quantidade	len(alunos)
-in	Verifica se existe	"Ana" in alunos
-sort()	Ordena a lista	alunos.sort()
-reverse()	Inverte a lista	alunos.reverse()
-clear()	Remove todos os elementos	alunos.clear()
-copy()	Copia a lista	nova = alunos.copy()
-max()	Retorna o maior valor	max(notas)
-min()	Retorna o menor valor	min(notas)
-sum()	Soma os valores	sum(notas)
+# Guia Rápido: Métodos e Funções para Listas em Python
+
+| Comando | Função | Exemplo |
+| :--- | :--- | :--- |
+| `[]` | Cria uma lista | `alunos = []` |
+| `append()` | Adiciona no final | `alunos.append("Ana")` |
+| `insert()` | Adiciona em uma posição | `alunos.insert(1, "Ana")` |
+| `remove()` | Remove pelo valor | `alunos.remove("Ana")` |
+| `pop()` | Remove pelo índice | `alunos.pop(0)` |
+| `del` | Remove pelo índice | `del alunos[0]` |
+| `len()` | Retorna a quantidade | `len(alunos)` |
+| `in` | Verifica se existe | `"Ana" in alunos` |
+| `sort()` | Ordena a lista | `alunos.sort()` |
+| `reverse()` | Inverte a lista | `alunos.reverse()` |
+| `clear()` | Remove todos os elementos | `alunos.clear()` |
+| `copy()` | Copia a lista | `nova = alunos.copy()` |
+| `max()` | Retorna o maior valor | `max(notas)` |
+| `min()` | Retorna o menor valor | `min(notas)` |
+| `sum()` | Soma os valores | `sum(notas)` |
 
 
 
