@@ -2,7 +2,7 @@
 
 ## Tópico: Estruturas de Repetição (for)
 
-### 1. O que é um Laço de Repetição?
+# 1. O que é um Laço de Repetição?
    Imagine que você trabalha na recepção de uma empresa e recebeu uma pilha com 5 crachás para entregar aos funcionários que acabaram de chegar.
    O que você faz?
    1. Pega o 1º crachá e entrega para a pessoa.
@@ -14,7 +14,7 @@ Na programação, isso se chama Iteração ou Laço de Repetição (Loop).
 O laço for serve justamente para isso: executar um bloco de código várias vezes, passando item por item de uma 
 coleção (como uma lista de nomes, uma sequência de números ou os caracteres de um texto).
 
-### 2. Por que usar o for?
+# 2. Por que usar o for?
 Veja este problema: se o seu professor pedir para você imprimir na tela o número $1$ até o número $5$, você poderia escrever:
 
 ```
@@ -435,4 +435,11 @@ range(inicio, parada, passo)
 > **Conceito fundamental:** o `for` percorre os elementos **um por vez**, executando o bloco indentado para cada elemento.
 
 
+## 💡 Resumo Rápido
 
+| **Recurso** | **O que faz?** | **Exemplo** |
+|---|---|---|
+| `for item in lista:` | Percorre elementos de uma lista | `for fruta in frutas:` |
+| `range(n)` | Gera números de `0` até `n-1` | `range(5)` → `0, 1, 2, 3, 4` |
+| `range(a, b)` | Gera números de `a` até `b-1` | `range(1, 5)` → `1, 2, 3, 4` |
+| `range(a, b, c)` | Gera números de `a` até `b-1`, pulando de `c` em `c` | `range(0, 10, 2)` → `0, 2, 4, 6, 8` |
