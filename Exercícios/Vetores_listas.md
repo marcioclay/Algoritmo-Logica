@@ -1,14 +1,12 @@
 # 🐍 Exercícios de Python: Estrutura de Dados - Listas
 
-Lista de exercícios pedagógicos desenvolvida para alunos iniciantes em programação Python.
-
 ---
 
 ### 📌 Pré-requisitos
 * Operadores aritméticos, relacionais e lógicos.
 * Manipulação básica de Strings e Listas.
 * Estruturas condicionais (`if` / `else`) e laço de repetição básico (`for`).
-* *Nota:* Esta lista **não** exige o uso de funções (`def`), laços `while` ou Programação Orientada a Objetos.
+
 
 ---
 
