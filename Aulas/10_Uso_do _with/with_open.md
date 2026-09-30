@@ -1,6 +1,4 @@
-# 📝 Manipulação de Arquivos TXT em Python: O Guia Definitivo com `open` e `with`
-
-Bem-vindo ao guia prático sobre manipulação de arquivos de texto (`.txt`) em Python. Este material foi desenvolvido especialmente para alunos iniciantes aprenderem a interagir com arquivos de forma segura, moderna e eficiente.
+# 📝 Manipulação de Arquivos TXT em Python: 
 
 ---
 
