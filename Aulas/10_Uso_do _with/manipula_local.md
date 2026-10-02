@@ -40,6 +40,27 @@ with open(caminho_arquivo, "w", encoding="utf-8") as arquivo:
 print(f"Arquivo salvo com sucesso em: {caminho_arquivo}")
 ```
 
+---
+```
+from pathlib import Path
+
+# 1. Define o caminho para a Área de Trabalho e a nova pasta 'relatorios' lá dentro
+pasta_destino = Path.home() / "Desktop" / "relatorios"
+
+# 2. Cria a pasta no Desktop automaticamente (e todas as pastas intermediárias se necessário)
+pasta_destino.mkdir(parents=True, exist_ok=True)
+
+# 3. Define o caminho completo do arquivo dentro dessa pasta do Desktop
+caminho_arquivo = pasta_destino / "alunos.txt"
+
+# 4. Cria e escreve no arquivo
+with open(caminho_arquivo, "w", encoding="utf-8") as arquivo:
+  arquivo.write("Ana\n")
+  arquivo.write("Bruno\n")
+
+print(f"Arquivo salvo com sucesso em: {caminho_arquivo}")
+```
+
 ### Exemplo B: Salvando em outra pasta do computador (ex: Documentos ou Desktop)
 Se você quiser salvar o arquivo em uma pasta completamente fora do projeto, como a pasta **Documentos** ou a **Área de Trabalho (Desktop)** do usuário, usamos o `Path.home()`:
 
