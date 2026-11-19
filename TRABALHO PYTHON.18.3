@@ -1,0 +1,155 @@
+
+1. Arquivo tarefas.py (Código Corrigido + Desafio + Proteção)
+
+Copie o código abaixo, cole no seu editor (VS Code ou PyCharm) e salve como tarefas.py:
+python
+opcao = -1
+
+while opcao != 0:
+    print("\n===== MENU DE TAREFAS =====")
+    print("1 - Cadastrar tarefa")
+    print("2 - Listar tarefas")
+    print("3 - Quantidade de tarefas cadastradas")
+    print("0 - Sair")
+    
+    # Proteção extra contra digitação de letras ou símbolos no menu
+    try:
+        opcao = int(input("Escolha uma opção: "))
+    except ValueError:
+        print("\nErro: Por favor, digite apenas números inteiros (0, 1, 2 ou 3).")
+        continue
+    
+    if opcao == 1:
+        tarefa = input("Digite a tarefa: ")
+        # Modo "a" (append) adiciona ao final sem apagar o conteúdo anterior
+        arquivo = open("tarefas.txt", "a", encoding="utf-8")
+        # O "\n" garante que cada tarefa fique em uma linha separada
+        arquivo.write(tarefa + "\n")
+        arquivo.close()
+        print("Tarefa cadastrada!")
+        
+    elif opcao == 2:
+        try:
+            arquivo = open("tarefas.txt", "r", encoding="utf-8")
+            linhas = arquivo.readlines()
+            arquivo.close()
+            
+            print("\n===== LISTA DE TAREFAS =====")
+            if len(linhas) == 0:
+                print("Nenhuma tarefa cadastrada.")
+            else:
+                for tarefa in linhas:
+                    # .strip() remove a quebra de linha extra na exibição
+                    print(tarefa.strip())
+        except FileNotFoundError:
+            print("\nArquivo de tarefas ainda não encontrado. Cadastre uma tarefa primeiro.")
+
+    elif opcao == 3:
+        try:
+            arquivo = open("tarefas.txt", "r", encoding="utf-8")
+            linhas = arquivo.readlines()
+            arquivo.close()
+            
+            # A função len() conta quantos elementos (linhas) existem na lista
+            quantidade = len(linhas)
+            print(f"\nTotal de tarefas cadastradas: {quantidade}")
+        except FileNotFoundError:
+            print("\nTotal de tarefas cadastradas: 0")
+            
+    elif opcao == 0:
+        print("Programa encerrado!")
+        
+    else:
+        print("Opção inválida!")
+Use o código com cuidado.
+
+2. Arquivo tarefas.txt (Arquivo dos Testes)
+
+Crie um arquivo de texto chamado tarefas.txt na mesma pasta e cole exatamente estas duas linhas dentro dele (ou apenas rode o código acima e cadastre as duas tarefas):
+text
+Estudar Python
+Fazer exercícios
+Use o código com cuidado.
+
+3. Relatório Completo (Respostas + Registro da IA)
+
+Copie o texto abaixo, cole no Word, Google Docs ou no campo de texto da plataforma de entrega do professor:
+text
+ATIVIDADE PRÁTICA – ENGENHARIA REVERSA DE CÓDIGO COM IA
+Nome: Cleidimar Luis Pereira
+
+====================================================================
+ETAPA 1 – INVESTIGAÇÃO
+====================================================================
+Comportamento observado durante os testes no código original:
+1. Ao cadastrar a tarefa "Estudar Python", o sistema exibe a mensagem "Tarefa cadastrada!" e grava o texto no arquivo tarefas.txt.
+2. Ao cadastrar a segunda tarefa "Fazer exercícios", o sistema também confirma o cadastro. No entanto, ao listar as tarefas, percebe-se que a primeira tarefa desapareceu.
+3. Ao escolher a opção 2 (Listar tarefas), o terminal exibe apenas "Fazer exercícios".
+4. Conclusão da investigação: O programa não acumula os registros. Cada novo cadastro apaga completamente o conteúdo anterior do arquivo tarefas.txt, mantendo apenas a última tarefa digitada, além de não inserir quebra de linha ao final da gravação.
+
+====================================================================
+ETAPA 2 – ENGENHARIA REVERSA
+====================================================================
+- Qual é a finalidade da variável opcao?
+Ela atua como uma variável de controle de fluxo. Armazena o número digitado pelo usuário no menu e permite que o programa decida qual bloco condicional executar (if, elif, else) ou quando deve encerrar o loop principal. Ela é inicializada com -1 apenas para garantir que a condição inicial do laço while seja verdadeira na primeira execução.
+
+- Para que serve o comando while?
+É uma estrutura de repetição (loop) condicional. No código, "while opcao != 0:" mantém o menu sendo exibido repetidamente na tela, permitindo que o usuário realize várias operações seguidas sem que o programa encerre após a primeira ação. O laço só termina quando o usuário digita 0.
+
+- O que acontece quando o usuário escolhe a opção 1?
+O programa entra no bloco "if opcao == 1:", solicita que o usuário digite a descrição da tarefa por meio da função input(), abre o arquivo tarefas.txt em modo de escrita ("w"), grava o texto no arquivo, fecha o arquivo para efetivar a gravação em disco e exibe a mensagem de confirmação.
+
+- Qual é a finalidade do comando open()?
+Ele estabelece uma conexão (fluxo de dados) entre o programa em Python e um arquivo externo no sistema operacional (neste caso, tarefas.txt), retornando um objeto de arquivo que permite ler ou modificar seu conteúdo.
+
+- Qual é a diferença entre os modos "r" e "w"?
+O modo "r" (read / leitura) abre o arquivo apenas para consultar seu conteúdo, sem permitir alterações (gerando erro caso o arquivo não exista). Já o modo "w" (write / escrita) abre o arquivo para gravar dados, mas sobrescreve e apaga todo o conteúdo anterior existente antes de escrever o novo texto.
+
+- Para que serve o comando readlines()?
+Ele lê todo o conteúdo do arquivo aberto e retorna uma lista (list) em Python, onde cada linha do arquivo de texto se torna um elemento separado da lista. Isso permite percorrer o arquivo linha por linha usando um laço for.
+
+- Qual é a função do comando close()?
+Ele encerra a conexão entre o Python e o arquivo. Esse comando é essencial para liberar recursos de memória do sistema operacional e garantir que os dados armazenados temporariamente no buffer sejam salvos fisicamente no disco rígido.
+
+====================================================================
+ETAPA 3 – IDENTIFICAÇÃO DOS ERROS
+====================================================================
+Problema 1: Sobrescrita de dados (Perda de tarefas anteriores)
+- Por que acontece: Na linha 11, o arquivo é aberto com o parâmetro "w" (open("tarefas.txt", "w")). O modo "w" zera o arquivo toda vez que é executado, apagando as tarefas salvas anteriormente.
+- Onde modificar: Linha 11. O modo deve ser alterado de "w" para "a" (append / anexar), que adiciona novos dados ao final do arquivo preservando o histórico.
+
+Problema 2: Ausência de quebra de linha (\n)
+- Por que acontece: Na linha 12, o comando arquivo.write(tarefa) grava exatamente o texto digitado sem adicionar um caractere de nova linha. Mesmo usando o modo "a", as tarefas ficariam coladas na mesma linha (ex: "Estudar PythonFazer exercícios").
+- Onde modificar: Linha 12. Deve-se concatenar o caractere "\n" ao final da string (arquivo.write(tarefa + "\n")).
+
+Problema 3 (Melhorias de estabilidade e tratamento de exceções):
+- Por que acontece: Se o usuário tentar listar ou contar tarefas antes de cadastrar a primeira (quando o arquivo tarefas.txt ainda não existe), o modo "r" gera um erro fatal (FileNotFoundError). Além disso, se o usuário digitar letras no menu em vez de números, a conversão int(input()) quebra o programa com ValueError. Por fim, o print(tarefa) na listagem gera linhas em branco extras devido ao "\n" trazido pelo readlines().
+- Onde modificar: Uso de blocos try/except para FileNotFoundError e ValueError, e uso do método .strip() na exibição das linhas.
+
+====================================================================
+ETAPA 4 E ETAPA 5 – CORREÇÃO E DESAFIO INDIVIDUAL
+====================================================================
+O código no arquivo tarefas.py foi corrigido para:
+1. Permitir o cadastro de múltiplas tarefas sem apagar as anteriores (modo "a").
+2. Salvar cada tarefa em uma linha individual (uso de "\n").
+3. Listar todas as tarefas de forma limpa (uso de .strip()).
+4. Implementar a opção "3 - Quantidade de tarefas cadastradas", que lê as linhas do arquivo e utiliza a função len(linhas) para informar a quantidade exata de tarefas registradas.
+5. Garantir estabilidade contra entradas inválidas no menu (tratamento de ValueError) e ausência inicial do arquivo (tratamento de FileNotFoundError).
+
+====================================================================
+ITEM 6 – REGISTRO DA UTILIZAÇÃO DA INTELIGÊNCIA ARTIFICIAL
+====================================================================
+- Qual ferramenta de IA utilizou?
+Utilizei o Gemini (assistente de Inteligência Artificial do Google).
+
+- Qual pergunta ou comando enviou para a IA?
+Enviei o enunciado completo da atividade juntamente com o código-fonte original com defeitos, solicitando uma análise de engenharia reversa, a identificação detalhada dos erros de lógica e manipulação de arquivos em Python, a explicação técnica de cada comando, a implementação da funcionalidade extra de contagem de tarefas e o tratamento de exceções para evitar falhas de execução.
+
+- Qual problema a IA identificou?
+A IA identificou a sobrescrita de dados causada pelo modo de abertura "w", a ausência de quebra de linha ("\n") na escrita, a duplicação de linhas vazias na impressão com readlines(), a falta de tratamento caso o arquivo ainda não existisse (FileNotFoundError) e a vulnerabilidade na entrada do menu caso o usuário digitasse caracteres não numéricos (ValueError).
+
+- Você concordou com a solução apresentada? Justifique.
+Sim, concordei totalmente. A solução seguiu as boas práticas da linguagem Python de forma clara e objetiva. A troca do modo "w" pelo modo "a" resolveu a perda de dados na raiz; o uso da função nativa len() sobre a lista retornada pelo readlines() resolveu o desafio da Etapa 5 com eficiência; e a adição de encoding="utf-8" junto aos blocos try/except garantiu que o sistema funcione sem erros de acentuação ou travamentos inesperados.
+
+- O que você aprendeu durante a correção?
+Aprendi na prática como funciona a persistência de dados em arq
